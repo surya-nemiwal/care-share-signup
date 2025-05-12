@@ -1,0 +1,36 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-banner-container {
+  height: 220px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 60px;
+}
+
+.input-container {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .signup-banner-container {
+    height: 320px;
+  }
+}
+
+@media (min-width: 900px) {
+  .signup-page {
+    flex-direction: row;
+  }
+  .signup-banner-container {
+    height: 100vh;
+    width: 50%;
+    padding-top: 10px;
+  }
+  .input-container {
+    margin-top: 80px;
+    width: 50%;
+  }
+}

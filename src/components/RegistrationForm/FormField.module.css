@@ -1,0 +1,70 @@
+.input-container {
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.input-container.error {
+  border-bottom: 1px solid #ef4444;
+  background: #fef2f2;
+}
+
+.input-container.focus {
+  border-bottom: 2px solid #00bfa5;
+}
+
+.input-container.email {
+  border: none;
+}
+
+.input-container.email.focus {
+  /* outline: 2px solid #00BFA5;
+    outline-color: #00BFA5;
+    border-color: #00BFA5; */
+  /* border: 2px solid #212121; */
+  /* border-radius: 8px; */
+}
+
+.input-field {
+  padding: 18px 4px 4px 16px;
+}
+
+.error .input-field {
+  background: #fef2f2;
+}
+
+.input-label {
+  font-size: 12px;
+  color: #212121;
+  position: absolute;
+  left: 16px;
+  top: 2px;
+  transition: top 200ms, font-size 200ms;
+}
+.input-label.center {
+  font-size: 16px;
+  color: #797979;
+  top: 12px;
+}
+.error .input-label {
+  color: #ef4444;
+}
+.focus .input-label {
+  color: #00bfa5;
+}
+
+.input-label:focus {
+  color: blueviolet;
+}
+
+.input-field:focus {
+  outline: none;
+  border: none;
+}
+
+.input-field.email {
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+}
+
+.input-field.email:focus {
+  border: 2px solid #212121;
+}

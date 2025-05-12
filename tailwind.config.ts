@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'custom-blue': '#243144',
+        'grey-1': '#F4F6F8',
+        'grey-2': '#F3F4F6',
+        'error': '#ef4444',
+        'green-1': 	'#00BFA5'
+      },
+      screens: {
+        sm: '0px',       // Mobile
+        md: '600px',     // Tablet  
+        lg: '900px',     // Desktop
       },
     },
   },
