@@ -57,7 +57,7 @@ export default function Dropdown(props: DropdownProps) {
             onBlur?.();
         }
     }
-  },[isOpen, inFocus])
+  },[isOpen, inFocus, onFocus, onBlur])
 
   return (
     <div ref={dropdownRef} className={`relative inline-block w-full ${className}`}>

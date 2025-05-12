@@ -57,7 +57,7 @@ const RegistrationForm: React.FC = () => {
   };
 
   const validateField = (fieldName: keyof FormData) => {
-    let error = validateFormField(fieldName, formData);
+    const error = validateFormField(fieldName, formData);
     setErrors({ ...errors, [fieldName]: error });
   };
 
